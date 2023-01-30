@@ -5,6 +5,8 @@ const corsOption = {
     origin: ['http://localhost:3000'],
 };
 
+
+
 const routes = require('./routes');
 const { errorConverter, errorHandler } = require('./middlewares/error')
 
